@@ -3,7 +3,7 @@ package ch6
 import (
 	"image/color"
 
-	geometry "golang-study/book/ch6/geometry"
+	geometry "golang-study/book/ch6_methods/geometry"
 )
 
 // ColoredPoint 组合

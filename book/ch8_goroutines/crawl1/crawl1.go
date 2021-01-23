@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	links "golang-study/book/ch5/links"
+	links "golang-study/book/ch5_functions/links"
 )
 
 func crawl(url string) []string {
