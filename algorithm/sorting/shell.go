@@ -1,6 +1,7 @@
 package sorting
 
-func shellSort(arr []int) {
+// ShellSort 希尔排序
+func ShellSort(arr []int) {
 	h := 1
 	for 3*h < len(arr) {
 		h = 3*h + 1

@@ -1,6 +1,7 @@
 package sorting
 
-func quickSort(arr []int) {
+// QuickSort 快速排序
+func QuickSort(arr []int) {
 	shuffle(arr)
 	quickSortRecur(arr, 0, len(arr)-1)
 }

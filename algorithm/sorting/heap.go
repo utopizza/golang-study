@@ -1,6 +1,7 @@
 package sorting
 
-func heapSort(arr []int) {
+// HeapSort 堆排序
+func HeapSort(arr []int) {
 	// 原数组元素复制到一个辅助数组，第一个元素下标为1
 	N := len(arr)
 	helper := make([]int, N+1)
@@ -8,7 +9,7 @@ func heapSort(arr []int) {
 		helper[i+1] = arr[i]
 	}
 
-	// 调整非叶子结点，保证每个节点比左右孩子都大，即构建最大堆
+	// 调整非叶子结点，保证每个节点比左右孩子都大，即构建最小堆
 	// 构建完成后，堆顶为数组最大元素
 	for k := N / 2; k > 1; k-- {
 		sink(helper, k, N)

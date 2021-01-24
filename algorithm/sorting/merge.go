@@ -1,6 +1,7 @@
 package sorting
 
-func mergeSort(arr []int) {
+// MergeSort 归并排序
+func MergeSort(arr []int) {
 	mergeSortRecur(arr, 0, len(arr)-1)
 }
 
