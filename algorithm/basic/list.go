@@ -1,4 +1,4 @@
-package datastructure
+package basic
 
 // List 链表
 type List struct {

@@ -1,4 +1,4 @@
-package datastructure
+package basic
 
 // Stack 栈
 type Stack struct {

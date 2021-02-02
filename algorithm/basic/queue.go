@@ -1,4 +1,4 @@
-package datastructure
+package basic
 
 // Queue 队列
 type Queue struct {

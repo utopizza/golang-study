@@ -1,4 +1,4 @@
-package datastructure
+package basic
 
 type node struct {
 	data interface{}

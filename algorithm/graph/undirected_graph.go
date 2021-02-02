@@ -1,7 +1,7 @@
 package graph
 
 import (
-	base "golang-study/algorithm/datastructure"
+	base "golang-study/algorithm/basic"
 )
 
 // UndirectedGraph 无向图
